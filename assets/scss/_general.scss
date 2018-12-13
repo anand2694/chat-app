@@ -1,0 +1,165 @@
+// General Style
+
+.icon-center{
+    position: absolute;
+    top:50%;
+    left:50%;
+    font-size: 27px;
+}
+
+.icon-bl{
+        border-left: 3px solid #1fb2e2f5;
+        color:#1fb2e2f5;
+}
+
+.dot-size{
+        font-size: 7px;
+    color: #0000006e;
+}
+.dot-size-right{
+        font-size: 7px;
+    color:$black;
+}
+
+.text-d{
+    font-size: 23px;
+    font-weight: bolder;
+    color: #00000078;
+}
+.bell-number{
+        left: 9%;
+    position: absolute;
+    top: 20%;
+}
+
+
+// chat-bubbles
+.overflw{
+    
+      height: calc(100vh - 112px);
+    overflow-y: scroll;
+}
+
+//  for-left-bubble
+.user-left-1{
+    position: absolute;
+    top: 43%;
+    padding: 13px;
+    background: #3459e4;
+}
+.user-time{
+        position: absolute;
+    left: 29%;
+    top: 76%;
+}
+.talk-bubble-left {
+	margin: 40px;
+  display: inline-block;
+  position: relative;
+	width: 300px;
+    height: auto;
+    padding: 10px;
+	background-color: #3459e4;
+}
+
+.round{
+  border-radius: 13px;
+	-webkit-border-radius: 13px;
+	-moz-border-radius: 13px;
+
+}
+
+.tri-right.btm-left:after{
+     content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -9px;
+    right: auto;
+    top: 45%;
+    bottom: -20px;
+    border: 23px solid;
+    border-color: transparent transparent #3459e4 transparent;
+}
+.talktext{
+  padding: 1em;
+	text-align: left;
+  line-height: 1.5em;
+}
+.talktext p{
+  /* remove webkit p margins */
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
+//  for-left-bubble-end
+
+// *****************
+// for-right-bubble
+.useiccon{
+        position: absolute;
+    top: 66%;
+    left: 95%;
+}
+.talk-bubble-right {
+	margin: 40px;
+  display: inline-block;
+  position: relative;
+	width: 500px;
+    height: auto;
+    padding: 10px;
+    background-color:$white;
+    
+}
+
+.round{
+  border-radius: 13px;
+	-webkit-border-radius: 13px;
+	-moz-border-radius: 13px;
+
+}
+
+.tri-right.btm-right:after{
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: auto;
+    right: -12px;
+    top: 45%;
+    bottom: -20px;
+    border: 23px solid;
+    border-color: transparent transparent $white transparent;
+}
+
+
+.talktext{
+  padding: 1em;
+	text-align: left;
+  line-height: 1.5em;
+}
+.talktext p{
+  /* remove webkit p margins */
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
+// for-right-bubble-end
+// chat-bubbles-end
+
+// submit-box
+.boxshadow{
+    box-shadow: 5px 0px 4px 5px #00000012;
+}
+.border-l{
+    border-right: 2px solid #00000073;
+}
+.fntss{
+    font-size: 30px;
+}
+.roundborder{
+    border-radius: 1px 50px 50px 1px;
+}
+.box-shadow{
+
+      box-shadow: -1px 2px 3px 3px #ded3d3f2;
+}
+// submit-box

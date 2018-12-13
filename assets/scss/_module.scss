@@ -1,0 +1,16 @@
+// Module Style
+
+.profile-card-small {
+	@extend .d-flex; 
+	@extend .justify-content-between; 
+	@extend .border-bottom-0; 
+	@extend .mb-2; 
+	@extend .p-2;
+	border-radius: $border-radius;
+	background: $white;
+}
+
+.profile-list-container {
+	height: calc(100vh - 160px);
+	overflow-y: scroll;
+}
